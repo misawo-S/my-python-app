@@ -2,7 +2,7 @@ import streamlit as st
 import random
 
 #web画面の見出し
-st.title("魔法のmeb占い")
+st.title("魔法のweb占い")
 
 #ボタン設置
 if st.button("運勢を占う"):
