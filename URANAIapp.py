@@ -11,7 +11,7 @@ st.markdown(
     """
     <style>
     .stApp {
-        background-color: #E6E6FA; /* ここに好きな色のコードを入れる */
+        background-color: #4682B4; /* ここに好きな色のコードを入れる */
     }
     </style>
     """,
