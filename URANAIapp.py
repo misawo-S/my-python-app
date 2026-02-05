@@ -18,7 +18,8 @@ if st.button("運勢を占う"):
  choice = random.choice(fortunes)
 
 #画面に大きく表示
- st.header (f"結果は...choice{'result'}!!!")
- st.subheader(f"ラッキーアイテム：{'item'}")
+ st.header (f"結果は...{choice['result']}!!!")
+ st.subheader(f"ラッキーアイテム：{choice['item']}")
  st.balloons()
+ 
 
