@@ -6,6 +6,17 @@ st.sidebar.title("⚙️ 設定・入力")
 user_name = st.sidebar.text_input("あなたの名前を入力してください")
 
 # --- 2. メイン画面の見出し ---
+# --- 背景色を「薄い紫」に変える魔法のコード ---
+st.markdown(
+    """
+    <style>
+    .stApp {
+        background-color: #f0f2f6; /* ここに好きな色のコードを入れる */
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 st.title("🌈 虹色・魔法の占いアプリ")
 st.markdown("---") # 区切り線
 
